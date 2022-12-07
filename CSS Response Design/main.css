@@ -41,6 +41,7 @@ li,
 h6,
 nav {
   display: inline;
+  /* display: inline; */
 }
 
 h6 {
