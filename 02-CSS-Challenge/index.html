@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card payment</title>
+  </head>
+  <body>
+    <div class="card-shape back">
+      <div class="card-back_pattern">
+        <input type="text" value="CVC" class="form back" />
+      </div>
+    </div>
+
+    <div class="card-shape top">
+      <form action="#">
+        <div class="top-half">
+          <div class="forms">
+            <input
+              type="text"
+              name="Holder-of-card"
+              id="holder"
+              value="Holder of card"
+              class="top-half form"
+              required
+            />
+            <input
+              type="text"
+              name="Number-of-card"
+              id="number"
+              value="Number of card"
+              class="top-half form"
+              required
+            />
+          </div>
+        </div>
+        <p class="card-letter">valid thru</p>
+        <div class="bottom-half">
+          <input
+            type="text"
+            name="month"
+            value="MM"
+            class="form date"
+            required
+          />
+          <p class="card-letter slash">/</p>
+          <input
+            type="text"
+            name="year"
+            value="YY"
+            class="form date"
+            required
+          />
+          <img
+            src="/02-CSS-Challenge/assets/png-clipart-mastercard-logo-credit-card-visa-brand-mastercard-text-label-thumbnail.png"
+            alt="matercard-icon"
+            class="card-icon"
+          />
+          <img
+            src="/02-CSS-Challenge/assets/visa.png"
+            alt="visacard-icon"
+            class="card-icon"
+          />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+body {
+  background-color: #141a29;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.btn-custom {
+  cursor: pointer;
+  appearance: none;
+  margin-top: 10em;
+  height: 50px;
+  width: 120px;
+  background-color: #141a29;
+  border: 2px solid #ffa260;
+  border-color: #ffa260;
+  color: #ffa260;
+  box-shadow: none;
+  transition: all 0.2s ease 0s;
+}
+.btn-custom:hover {
+  border-color: #f1ff5c;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0px 7px 7px -5px#e2eb76;
+}
