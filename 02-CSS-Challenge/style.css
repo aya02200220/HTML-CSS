@@ -6,7 +6,10 @@
 body {
   width: auto;
 }
-
+.card-line {
+  height: 30px;
+  border: 1px solid black;
+}
 .card-shape {
   position: absolute;
   top: -200px;
@@ -88,4 +91,6 @@ body {
   left: 100px;
   justify-content: end;
   position: relative;
+  padding: 0;
+  height: 190px;
 }
